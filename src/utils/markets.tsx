@@ -1,11 +1,12 @@
 import {
   Market,
-  MARKETS,
+  // MARKETS,
   OpenOrders,
   Orderbook,
-  TOKEN_MINTS,
+  // TOKEN_MINTS,
   TokenInstructions,
 } from '@project-serum/serum';
+import { MARKETS, TOKEN_MINTS } from "./tokens_and_markets";
 import { PublicKey } from '@solana/web3.js';
 import React, { useContext, useEffect, useState } from 'react';
 import {

@@ -3,7 +3,12 @@ import { Col, Input, Modal, Row, Typography } from 'antd';
 import { notify } from '../utils/notifications';
 import { isValidPublicKey } from '../utils/utils';
 import { PublicKey } from '@solana/web3.js';
-import { Market, MARKETS, TOKEN_MINTS } from '@project-serum/serum';
+import {
+  Market,
+  // MARKETS,
+  // TOKEN_MINTS
+} from '@project-serum/serum';
+import { MARKETS, TOKEN_MINTS } from '../utils/tokens_and_markets';
 import { useAccountInfo, useConnection } from '../utils/connection';
 import { LoadingOutlined } from '@ant-design/icons';
 

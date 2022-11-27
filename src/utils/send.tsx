@@ -24,9 +24,10 @@ import {
   Market,
   OpenOrders,
   parseInstructionErrorResponse,
-  TOKEN_MINTS,
+  // TOKEN_MINTS,
   TokenInstructions,
 } from '@project-serum/serum';
+import { TOKEN_MINTS } from './tokens_and_markets';
 import { SelectedTokenAccounts, TokenAccount } from './types';
 import { Order } from '@project-serum/serum/lib/market';
 import { Buffer } from 'buffer';
