@@ -8,7 +8,7 @@ import { ConnectionContextValues, EndpointInfo } from './types';
 export const ENDPOINTS: EndpointInfo[] = [
   {
     name: 'mainnet-beta',
-    endpoint: 'https://solana-api.projectserum.com',
+    endpoint: 'https://sly-purple-frog.solana-mainnet.discover.quiknode.pro/5f584d74552044c62bf1f7cd22d4d7ced48ef4d0/',
     custom: false,
   },
   { name: 'localnet', endpoint: 'http://127.0.0.1:8899', custom: false },
